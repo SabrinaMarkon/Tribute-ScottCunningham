@@ -1,0 +1,68 @@
+$headingfont: 'Roboto';
+$mainfont: 2em 'Crimson Text';
+$smallfont: 1.3em 'Crimson Text';
+$mainborder: 3px solid #EE0FBF;
+$shadow: 1px 1px 2px black, 2px 2px 5px #A68AA7;
+$shadowasmall: 1px 1px 1px black;
+
+body {
+	margin: 0 auto;
+	background: url('http://phpsitescripts.com/repos/tribute-scottcunningham/images/PentacleWallpaper.png');
+	font: $mainfont;
+	p {
+		text-indent: 50px;
+	}
+}
+
+#main {
+	background: #fff;
+	width: 75%;
+	padding: 20px;
+	border: $mainborder;
+	border-top: 0;
+	border-bottom: 0;
+
+	header {
+		font: $headingfont;
+		padding-bottom: 40px;
+		.h1 {
+			font-size: 5em;
+			color: #EE0FBF;
+			text-shadow: $shadow;
+		}
+		.h2 {
+			font-size: 1.5em;
+			font-style: italic;
+		}
+		.h3 {
+			font-size: 1em;
+		}
+	}
+
+	.jumbotron {
+		background: #A68AA7;
+		border: $mainborder;
+		box-shadow: $shadow;
+	}
+
+	.img-responsive {
+		box-shadow: $shadow;
+		width: 100%;
+	}
+	.img-responsive.smaller {
+		width: 30%;
+		margin: 30px auto;
+	}
+
+	ol li {
+		padding: 10px;
+	}
+
+	.pink {
+			font: $smallfont;
+			color: #EE0FBF;
+			text-shadow: $shadowasmall;
+			padding-top: 30px;
+	}
+
+}
