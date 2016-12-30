@@ -1,6 +1,6 @@
 body {
   margin: 0 auto;
-  background: url("images/PentacleWallpaper.png");
+  background: url("http://phpsitescripts.com/repos/tribute-scottcunningham/images/PentacleWallpaper.png");
   font: 2em "Crimson Text";
 }
 body p {
@@ -40,12 +40,18 @@ body p {
   box-shadow: 1px 1px 2px black, 2px 2px 5px #A68AA7;
   width: 100%;
 }
-#main .img-responsive.smaller {
-  width: 30%;
+#main .img-responsive.medium {
+  width: 80%;
   margin: 30px auto;
 }
-#main ol li {
+#main .img-responsive.small {
+  width: 40%;
+  margin: 30px auto;
+}
+#main ol li,
+#main ul li {
   padding: 10px;
+  padding-top: 20px;
 }
 #main .pink {
   font: 1.3em "Crimson Text";

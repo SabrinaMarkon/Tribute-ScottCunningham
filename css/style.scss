@@ -2,12 +2,12 @@ $headingfont: 'Roboto';
 $mainfont: 2em 'Crimson Text';
 $smallfont: 1.3em 'Crimson Text';
 $mainborder: 3px solid #EE0FBF;
-$shadow: 1px 1px 2px black, 2px 2px 5px #A68AA7;
+$shadow: 1px 1px 2px black,
+2px 2px 5px #A68AA7;
 $shadowasmall: 1px 1px 1px black;
-
 body {
 	margin: 0 auto;
-	background: url('images/PentacleWallpaper.png');
+	background: url('http://phpsitescripts.com/repos/tribute-scottcunningham/images/PentacleWallpaper.png');
 	font: $mainfont;
 	p {
 		text-indent: 50px;
@@ -21,7 +21,6 @@ body {
 	border: $mainborder;
 	border-top: 0;
 	border-bottom: 0;
-
 	header {
 		font: $headingfont;
 		padding-bottom: 40px;
@@ -38,31 +37,34 @@ body {
 			font-size: 1em;
 		}
 	}
-
 	.jumbotron {
 		background: #A68AA7;
 		border: $mainborder;
 		box-shadow: $shadow;
 	}
-
 	.img-responsive {
 		box-shadow: $shadow;
 		width: 100%;
 	}
-	.img-responsive.smaller {
-		width: 30%;
+	.img-responsive.medium {
+		width: 80%;
 		margin: 30px auto;
 	}
-
-	ol li {
-		padding: 10px;
+	.img-responsive.small {
+		width: 40%;
+		margin: 30px auto;
 	}
-
+	ol,
+	ul {
+		li {
+			padding: 10px;
+			padding-top: 20px;
+		}
+	}
 	.pink {
-			font: $smallfont;
-			color: #EE0FBF;
-			text-shadow: $shadowasmall;
-			padding-top: 30px;
+		font: $smallfont;
+		color: #EE0FBF;
+		text-shadow: $shadowasmall;
+		padding-top: 30px;
 	}
-
 }
