@@ -7,7 +7,7 @@ body p {
   text-indent: 50px;
 }
 
-#main {
+.main {
   background: #fff;
   width: 75%;
   padding: 20px;
@@ -15,45 +15,45 @@ body p {
   border-top: 0;
   border-bottom: 0;
 }
-#main header {
+.main header {
   font: "Roboto";
   padding-bottom: 40px;
 }
-#main header .h1 {
+.main header .h1 {
   font-size: 5em;
   color: #EE0FBF;
   text-shadow: 1px 1px 2px black, 2px 2px 5px #A68AA7;
 }
-#main header .h2 {
+.main header .h2 {
   font-size: 1.5em;
   font-style: italic;
 }
-#main header .h3 {
+.main header .h3 {
   font-size: 1em;
 }
-#main .jumbotron {
+.main .jumbotron {
   background: #A68AA7;
   border: 3px solid #EE0FBF;
   box-shadow: 1px 1px 2px black, 2px 2px 5px #A68AA7;
 }
-#main .img-responsive {
+.main .img-responsive {
   box-shadow: 1px 1px 2px black, 2px 2px 5px #A68AA7;
   width: 100%;
 }
-#main .img-responsive.medium {
+.main .img-responsive.medium {
   width: 80%;
   margin: 30px auto;
 }
-#main .img-responsive.small {
+.main .img-responsive.small {
   width: 40%;
   margin: 30px auto;
 }
-#main ol li,
-#main ul li {
+.main ol li,
+.main ul li {
   padding: 10px;
   padding-top: 20px;
 }
-#main .pink {
+.main .pink {
   font: 1.3em "Crimson Text";
   color: #EE0FBF;
   text-shadow: 1px 1px 1px black;
