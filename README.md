@@ -1,7 +1,7 @@
 Tribute to Wiccan author Scott Cunningham
 --------------------------------------------------------
 
-A tribute to the late American author, Scott Cunningham, who opened up Wiccan philosophies to those hoping to explore their spirituality and connection to the natural world. 
+A tribute to late American author, Scott Cunningham. 
 
 Responsive HTML5, CSS3, SASS and Bootstrap for FCC (FreeCodeCamp)
 
